@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>lugares</title>
+<!-- TemplateEndEditable -->
+<link href="../estilo.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="Contenido" type="boolean" value="true" -->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="red_arriba"></div>
+  <div class="header"><!-- end .header -->
+    <h1>TIPOS DE CHOCOLATE  </h1>
+  </div>
+  <div class="sidebar1">
+    <ul class="nav">
+      <li><a href="index.htm">Inicio</a></li>
+      <li><a href="variedad.htm">Tipos</a></li>
+      <li><a href="lugares.htm">Lugares</a></li>
+      <li><a href="galeria.htm">Historia</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <!-- end .sidebar1 --></div>
+  <div class="content">
+    <div class="content_content1"></div>
+    <h2>Variedad de chocolate</h2>
+    <h3><!-- TemplateBeginEditable name="Contenido" -->Los paises productores de chocolate en porcentaje (%)<br />
+    <!-- TemplateEndEditable --></h3>
+    <p><img src="../imagen/pro.jpg" width="596" height="420" alt="pro" longdesc="../imagen/pro.jpg" /></p>
+    <form id="form1" name="form1" method="post" action="envia_reserva.php">
+      <table width="389" border="1">
+        <tr>
+          <td width="183"><label for="nombre">Nombre</label></td>
+          <td width="190"><input name="nombre" type="text" id="nombre" size="25" /></td>
+        </tr>
+        <tr>
+          <td><label for="e-mail">E-mail</label></td>
+          <td><input type="text" name="e-mail" id="e-mail" /></td>
+        </tr>
+        <tr>
+          <td><label for="visita">Fecha de visita</label></td>
+          <td><input type="text" name="visita" id="visita" /></td>
+        </tr>
+        <tr>
+          <td><label for="tema">Tema</label></td>
+          <td><input type="text" name="tema" id="tema" /></td>
+        </tr>
+        <tr>
+          <td height="96">¿Qué Chocolate te gusto más?</td>
+          <td><input type="radio" name="radio" id="Chocolate blanco" value="Chocolate blanco" />
+          <label for="Chocolate blanco">Chocolate blanco<br />
+            <input type="radio" name="radio" id="Chocolate negro" value="Chocolate negro" />
+          Chocolate negro          <br />
+          <input type="radio" name="radio" id="Chocolate de leche" value="Chocolate de leche" />
+          Chocolate de leche          <br />
+          <input type="radio" name="radio" id="Chocolate de polvo" value="Chocolate de polvo" />
+          Chocolate de polvo          <br />
+          </label></td>
+        </tr>
+        <tr>
+          <td height="30" colspan="2"><input type="checkbox" name="si" id="si" />
+          <label for="si">¿Encontraste la información deseeada?</label></td>
+        </tr>
+        <tr>
+          <td height="29"><label for="Observaciones">Observaciones:</label></td>
+          <td height="29">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="39" colspan="2"><textarea name="Observaciones" id="Observaciones" cols="45" rows="5"></textarea></td>
+        </tr>
+        <tr>
+          <td height="35">&nbsp;</td>
+          <td height="35"><input type="submit" name="button" id="button" value="Enviar" /></td>
+        </tr>
+      </table>
+    </form>
+    <p>Si te gustaria saber algun otro tema por favo llena este formulario.</p>
+
+  </div>
+  <div class="footer">
+    <p>&nbsp;</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
